@@ -16,7 +16,7 @@ Lazarus es un IDE para Pascal (y Delphi).
 [Descargar](https://www.lazarus-ide.org/index.php?page=downloads)
 
 ## Hola Mundo en Pascal
-Aquí presentaremos y analizaremos nuestro primer programa en pascal que consiste en el clásico "Hola Mundo".
+Aquí presentaremos y analizaremos nuestro primer programa en Pascal que consiste en el clásico "Hola Mundo".
 ### Completo
 ```pascal
 // Mi primer programa
@@ -32,7 +32,7 @@ La primera sentencia
 ```pascal
 // Mi primer programa
 ```
-es un comentario. Los comentarios comienzan con `//`, esto le indica al compilador que esta línea de código debe ser ignorada. Los comentarios para proveer información a las personas que leen el código ya sea para entenderlo o modificarlo y no afectan a la ejecución.
+es un comentario. Los comentarios comienzan con `//`, esto le indica al compilador que esta línea de código debe ser ignorada. Los comentarios se utilizan para proveer información a las personas que leen el código ya sea para entenderlo o modificarlo y no afectan a la ejecución.
 La primera sentencia
 ```pascal
  program HOLA_MUNDO;

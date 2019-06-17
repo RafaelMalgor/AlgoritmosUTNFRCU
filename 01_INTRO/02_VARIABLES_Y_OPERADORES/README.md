@@ -1,6 +1,7 @@
 # Variables
 En programación, las variables son espacios reservados en la memoria que, como su nombre indica, pueden cambiar de contenido a lo largo de la ejecución de un programa. Nos permiten guardar valores o resultados que guardaremos a lo largo de nuestro programa. 
 En Pascal todas las variables que vayamos a utilizar deben ser declaradas en una sección especial del programa, esta sección comienza con la palabra reservada `var`. Cada variable puede guardar solo un tipo de dato (numérico, cadena de texto, etc.) y debe ser indicado por el programador. Para declarar una variable debemos indicar su nombre, luego `:` y finalmente el tipo de dato. 
+Las variables pueden tener cualquier nombre, siempre y cuando comiencen con una letra o un `_`. Es recomendable que el nombre de una variable refleje para que esta siendo utilizada, es decir, si queremos almacenar la edad de una persona, entonces el nombre `edad_persona` es mas útil que `variable1` o `aaa`, etc.
 Analicemos el siguiente ejemplo:
 ```pascal
 program VARIABLES;

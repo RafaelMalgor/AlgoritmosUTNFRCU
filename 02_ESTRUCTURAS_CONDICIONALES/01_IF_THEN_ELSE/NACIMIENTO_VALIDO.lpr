@@ -1,4 +1,4 @@
-program project1;
+program NACIMIENTO_VALIDO;
 uses crt;
 var
     anio: integer;

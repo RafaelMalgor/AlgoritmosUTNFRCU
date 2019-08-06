@@ -13,6 +13,8 @@ CASE <variable> OF
 Donde `<variable>` es la variable cuyo valor queremos usar como control para seleccionar que parte del código debe ejecutarse. `<valor_1>`, `<valor_2>`, etc. son alguno de los posibles valores que puede contener `<variable>` y `<cuerpo_1>`, `<cuerpo_2>`, etc. son las secciones de código correspondiente a cada valor. Finalmente `<cuerpo_alternativo>` es la sección de código que se ejecutara en caso de que `<variable>` contenga un valor que no se encuentra especificado.
 
 Veamos un ejemplo:
+
+**Consigna:** Mostrar que medalla corresponde a cada puesto.
 ```pascal
 program MENSAJE_PODIO;
 uses crt;

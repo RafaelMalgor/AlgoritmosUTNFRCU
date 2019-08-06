@@ -30,8 +30,8 @@ Como vemos, en Pascal, para asignar un valor a una variable colocamos su nombre,
 
 # Tipos
 A medida que avancemos con el aprendizaje iremos aprendiendo nuevos tipos que podremos utilizar en Pascal. Algunos ejemplos son:
-- integer: numeros enteros.
-- real: numeros reales.
+- integer: números enteros.
+- real: números reales.
 - string: cadena de texto.
 
 Documentación completa: https://wiki.freepascal.org/Variables_and_Data_Types

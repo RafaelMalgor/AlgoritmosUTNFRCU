@@ -31,3 +31,23 @@ begin
   readkey;
 end.
 ```
+# Cuenta regresiva
+Si necesitamos que el contador de nuestro ciclo se comporte de manera descendente en vez de manera ascendente solo debemos remplazar el termino `to` por `downto`, y además, asegurarnos de que el valor inicial se mayor al final, ya que la variable contador se decrementara en lugar de incrementarse.  
+
+Veamos un ejemplo:
+**Consigna:** mostrar una cuenta regresiva por pantalla.
+```Pascal
+program suma_intervalo;
+uses crt;
+var i:integer;
+begin
+  writeln('Formateando la computadora en: ');
+  for i:=10 downto 0 do
+      begin
+         Delay(1000); // Detiene el programa un numero determinado de milisegundos
+         writeln(i);
+      end;
+  writeln('Mentira! :)');
+  readkey;
+end.    
+```

@@ -34,6 +34,8 @@ A medida que avancemos con el aprendizaje iremos aprendiendo nuevos tipos que po
 - real: numeros reales.
 - string: cadena de texto.
 
+Documentación completa: https://wiki.freepascal.org/Variables_and_Data_Types
+
 # Operadores
 Los operadores son símbolos especiales que le indican al programa que realice ciertas operaciones aritméticas o lógicas. A medida que avancemos descubriremos distintos tipos de operadores, algunos ejemplos son:
 - Aritméticos:
@@ -41,3 +43,5 @@ Los operadores son símbolos especiales que le indican al programa que realice c
     - `-` : substrae un valor de otro, por ejemplo `resta:=8-3;`.  
     - `*` : producto de 2 valores, por ejemplo `producto:=4*4;`.
     - `/` : divide un valor por otro, por ejemplo `division:=8/2;`.
+
+Documentación completa: https://www.freepascal.org/docs-html/ref/refse84.html

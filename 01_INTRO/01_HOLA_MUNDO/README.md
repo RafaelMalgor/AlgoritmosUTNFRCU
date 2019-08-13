@@ -38,7 +38,7 @@ La línea de código
 ```pascal
   writeln('Hola, mundo!');
   ```
-imprime el el texto por consola. `writeln` es la sentencia que indica al programa que debe imprimir texto por consola y `Hola mundo!` es el texto. Este texto tiene una particularidad, esta escrito entre comillas `''`, esto le indica al programa que es una cadena literal, es decir que es texto que no es parte del algoritmo del programa sino que es un dato.
+imprime el el texto por consola. `writeln` es la sentencia que indica al programa que debe imprimir texto por consola y `Hola mundo!` es el texto. Este texto tiene una particularidad, esta escrito entre comillas `''`, esto le indica al programa que es una cadena literal, es decir que es texto que no es parte del algoritmo del programa sino que es un dato. Existe también la sentencia `write` que se comporta de manera muy similar a `writeln`, la diferencia es que `writeln` imprime el texto en una línea nueva y además agrega un salto de línea al final, mientras que `write` imprime en la posición actual del cursor.  
 
 La sentencia
 ```pascal

@@ -5,7 +5,7 @@ var
 begin
     writeln('Ingrese un numero:'); // Explicamos al usuario lo que el programa necesita
     readln(anio); // Leemos la entrada de usuario
-    if anio < 2020 then // Si el año es menor a 2020
+    if anio < 2020 then // Si el año es menor a 2020. Que pasa en 2021? (SysUtils.CurrentYear)
         begin
             writeln('El año de nacimiento es valido.'); // Solo si la condicion se cumple se ejecuta esta linea.
             readkey;

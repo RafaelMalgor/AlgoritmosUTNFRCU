@@ -10,7 +10,7 @@ begin
   write('Ingrese el cateto opuesto: ');
   readln(cateto_opuesto);
   resultado:=sqrt(cateto_opuesto*cateto_opuesto+cateto_adyacente*cateto_adyacente);
-  write('La hipotenusa es: ', resultado:2:4);
+  write('La hipotenusa es: ', resultado:0:4);
   readkey;
 end.
 

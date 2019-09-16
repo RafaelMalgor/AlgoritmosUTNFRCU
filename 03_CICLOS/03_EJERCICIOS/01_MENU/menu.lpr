@@ -1,4 +1,5 @@
 program menu;
+{$codepage UTF8}
 uses crt;
 var
   selected:integer;
